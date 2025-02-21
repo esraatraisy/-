@@ -1,2 +1,50 @@
-# -
-file:///C:/Users/hp/Desktop/index.html
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فريق مساحات</title>
+    <style>
+        body { font-family: Arial, sans-serif; direction: rtl; text-align: center; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #005f73; color: white; padding: 15px; font-size: 24px; }
+        nav { background: #0a9396; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin: 10px; font-size: 18px; }
+        section { padding: 20px; background: white; margin: 20px; border-radius: 10px; }
+        footer { background: #005f73; color: white; padding: 15px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بكم في فريق مساحات</h1>
+    </header>
+    <nav>
+        <a href="#about">من نحن</a>
+        <a href="#activities">الأنشطة</a>
+        <a href="#contact">تواصل معنا</a>
+    </nav>
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>فريق مساحات هو فريق يسعى إلى تطوير المجتمع من خلال أنشطة وفعاليات مبتكرة.</p>
+    </section>
+    <section id="activities">
+        <h2>أنشطتنا</h2>
+        <p>نقوم بتنظيم ورش عمل، جلسات حوارية، وفعاليات مجتمعية لتعزيز التفاعل والمشاركة.</p>
+    </section>
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <form action="https://formspree.io/f/your-email" method="POST">
+            <label>الاسم:</label>
+            <input type="text" name="name" required><br><br>
+            <label>البريد الإلكتروني:</label>
+            <input type="email" name="email" required><br><br>
+            <label>الرسالة:</label><br>
+            <textarea name="message" rows="5" required></textarea><br><br>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 فريق مساحات - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
+
